@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--BOOTSTRAP CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Swapup</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+        <a href="index.html" class="navbar-brand">SwapUp</a>
+
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-supported-content">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbar-supported-content"><ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-info my-2 my-sm-0">Search</button>
+            </form>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                        <a href="#" class="nav-link" data-toggle="modal" data-target="#loginModal">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a href="signup.html" class="nav-link">Sign Up</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="swapup parallax">
+        <div class="ptext">
+            <span class="pborder">Welcome to SwapUp</span>
+        </div>
+    </div>
+
+    <section class="section section-light">
+        <h2>About SwapUp</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem corrupti laboriosam, quisquam repellendus tenetur a maxime adipisci. Libero, numquam? Velit alias quae earum esse deserunt magnam, iusto laudantium modi aliquid eos quis aperiam. Repellat error deserunt dicta expedita dignissimos, eum consequuntur nisi tempore dolorum incidunt qui in dolore recusandae a!</p>
+    </section>
+
+    <div class="rentals parallax">
+        <div class="ptext">
+            <span class="pborder">Rentals</span>
+        </div>
+    </div>
+
+    <section class="section section-light">
+        <h2>Popular Rentals</h2>
+        <div class="row">
+
+                <div class="col-sm-12 col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Ball Mask</h5>
+                                <div class="text-center">
+                                    <img class="rental-card-img" src="images/rent1.jpg" alt="This image is not avaliable.">
+                                </div>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam sint iure assumenda ab soluta minus, nulla nam iusto quas quis.</p>
+                            <a href="rental.html" class="card-link">More info...</a>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-sm-12 col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Two Stage Lights</h5>
+                                <div class="text-center">
+                                    <img class="rental-card-img" src="images/rent2.jpg" alt="This image is not avaliable.">
+                                </div>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam sint iure assumenda ab soluta minus, nulla nam iusto quas quis.</p>
+                            <a href="rental.html" class="card-link">More info...</a>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-sm-12 col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Mannequin</h5>
+                                <div class="text-center">
+                                    <img class="rental-card-img" src="images/rent3.jpg" alt="This image is not avaliable.">
+                                </div>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam sint iure assumenda ab soluta minus, nulla nam iusto quas quis.</p>
+                            <a href="rental.html" class="card-link">More info...</a>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="contact parallax">
+        <div class="form">
+            <h3>Contact us!</h3>
+            <form>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form> 
+        </div>
+    </div>
+    <!-- MODALS -->
+    <div id="loginModal" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <form class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Login in to your account</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="loginEmail" aria-describedby="emailHelp" placeholder="Enter email">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Password</label>
+                        <input type="password" class="form-control" id="loginPassword" placeholder="Enter password">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Login</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!--BOOTSTRAP JS-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,128 @@
+body,html {
+    height: 100%;
+    margin: 0;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.parallax {
+    /* Create the parallax scrolling effect */
+    position: relative;
+    opacity: .70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* Homepage panes */
+.swapup {
+    /* The image used */
+    background-image: url("images/image1.jpg");
+
+    /* Set a specific height */
+    height: 500px;
+}
+
+.contact {
+    /* The image used */
+    background-image: url("images/image2.jpg");
+
+    /* Set a specific height */
+    height: 500px;
+}
+
+.rentals {
+    /* The image used */
+    background-image: url("images/image3.jpg");
+
+    /* Set a specific height */
+    height: 500px;
+}
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color:#fff;
+    font-size: 27px;
+    letter-spacing:8px;
+    text-transform:uppercase;
+}
+
+.ptext .pborder {
+    background-color: #777;
+    border: 0px;
+}
+
+.bg-secondary {
+    background-color: #777;
+}
+
+.section {
+    text-align:center;
+    padding: 50px 80px;
+}
+
+.form {
+    position: absolute;
+    background-color: #fff;
+    padding: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    text-align: center;
+}
+
+.rental-card-img {
+    height: 200px;
+    width: 200px;
+}
+
+.rental-carousel-img {
+    height: 300px;
+    width: 300px;
+}
+
+.signup-page {
+    /* The image used */
+    background-image: url("images/image1.jpg");
+
+    /* Set a specific height */
+}
+
+.rental-container {
+    /* The image used */
+    background-image: url("images/image3.jpg");
+    background-repeat: no-repeat;
+    opacity: .6;
+    /* Set a specific height */
+}
+.signup-form {
+    position: absolute;
+    background-color: #fff;
+    opacity: .80;
+    padding: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+}
+
+.signup-form .form-group{
+    color: black;
+}
+
+.carousel-control-next .fa-chevron-right {
+    color: #777;
+    font-size:36px;
+}
+
+.carousel-control-prev .fa-chevron-left {
+    color: #777;
+    font-size:36px;
+}
