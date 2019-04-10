@@ -1,5 +1,5 @@
 # SampleRentalSite
-Prototype website for Swapup NYC using Bootstrap4 components.
+Rental Site prototype using Bootstrap4 components.
 
 Live sample of the site: https://scytheripper.github.io/SampleRentalSite/
 
